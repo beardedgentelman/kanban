@@ -5,7 +5,7 @@ import Modal from '../Modal/Modal'
 
 const Dashboard: FC = () => {
 	return (
-		<div className='dashboard w-screen overflow-auto p-4'>
+		<div className='w-screen overflow-auto p-4'>
 			<KanbanBoard />
 
 			<Modal />

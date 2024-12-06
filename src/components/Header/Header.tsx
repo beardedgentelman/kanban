@@ -18,7 +18,7 @@ import { IoDocumentTextSharp } from 'react-icons/io5'
 import { MdOutlineTimer } from 'react-icons/md'
 
 const Header: FC = () => {
-	const breakpoints = useBreakpoints([1536, 1920])
+	const breakpoints = useBreakpoints([1535, 1919])
 	const [isMenuOpen, setIsMenuOpen] = useState(false)
 
 	const toggleMenu = () => setIsMenuOpen(!isMenuOpen)
